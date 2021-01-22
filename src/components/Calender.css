@@ -1,0 +1,66 @@
+.fa-square{
+    background-color: yellow;
+    color: yellow;
+    font-size: 12px;
+    
+}
+
+button{
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+    background: none;
+    background-image: none;
+    color: white;
+    padding: .375rem 1rem;
+    border-radius: 4px;
+    line-height: normal;
+    white-space: nowrap;
+    background-color:rgba(192,192,192,0.3);
+    border: none;
+
+    
+    
+    
+    
+}
+
+.rbc-btn-group {
+   display: flex;
+   flex: start;
+   
+   
+   
+}
+
+.rbc-toolbar-label{
+    color: white;
+    margin: 10px;
+   
+    
+    
+    
+}
+
+.rbc-btn-button{
+
+margin-left: 83%;
+
+}
+
+.main{
+    margin: px;
+}
+
+.month{
+    border-radius: 9px 0px 0px 9px;
+    width: 100px;
+}
+
+.week{
+    border-radius: 0px 9px 9px 0px;
+    width: 100px;
+    
+}
+
