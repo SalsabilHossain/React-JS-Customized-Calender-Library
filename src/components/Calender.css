@@ -1,3 +1,11 @@
+
+@import url('http://fonts.cdnfonts.com/css/avenir-next-cyr');
+
+
+body{
+    font: normal normal normal 18px/20px 'Avenir Next Cyr';
+}
+
 .fa-square{
     background-color: yellow;
     color: yellow;
@@ -7,7 +15,7 @@
 
 button{
     display: inline-block;
-    margin: 2px;
+    margin: 0.5px;
     text-align: center;
     vertical-align: middle;
     background: none;
@@ -27,8 +35,7 @@ button{
 }
 
 .rbc-btn-group {
-   display: flex;
-   flex: start;
+   
    
    
    
@@ -37,6 +44,7 @@ button{
 .rbc-toolbar-label{
     color: white;
     margin: 10px;
+    
    
     
     
@@ -44,23 +52,86 @@ button{
 }
 
 .rbc-btn-button{
+    
 
-margin-left: 83%;
 
 }
 
 .main{
-    margin: px;
+    display: flex;
+    
+    
 }
 
 .month{
     border-radius: 9px 0px 0px 9px;
     width: 100px;
+    margin-left: auto;
+    
+    
 }
 
 .week{
     border-radius: 0px 9px 9px 0px;
     width: 100px;
     
+    
 }
 
+.weekend{
+    color: red;
+    font-weight: bold;
+}
+
+.label{
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+
+.special-day{
+    background-color:#222E3E;
+    opacity: 0.7;
+    border: solid 1px #4E6786
+}
+
+.special-day:hover{
+    opacity: 0.3;
+    background-color: yellow;
+    left: 0;
+    
+    
+}
+
+.list{
+    color: white;
+    font-weight: bold;
+}
+
+.taskCount{
+    font-weight: normal;
+    display: inline;
+    float: right;
+    color: #FDD32A;
+}
+
+.eventList{
+    
+    font: normal normal normal 16px/20px Avenir Next Cyr;
+    
+}
+
+.arrow{
+    border-radius: 9px;
+    height: 40px;
+}
+
+@media screen and (max-height: 1000px) {
+    .taskCount{
+      display: none;
+    }
+  }
+
+ 
