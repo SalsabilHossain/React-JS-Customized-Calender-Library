@@ -1,12 +1,15 @@
-import React from 'react'
+import {useState} from 'react';
 import './App.css';
-import MyCalender from './components/Calender';
+//import MyCalendar from './components/Calender';
+import WeekCalendar from './components/WeekCalender'
+
 
 function App() {
+  const [calenderView, setCalenderView]  = useState("month"); 
   return (
     <div className="App">
       
-    <MyCalender/>
+    <WeekCalendar/>
     </div>
   );
 }
